@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="First TestNG Test" duration-ms="6427" started-at="2020-07-28T16:53:26 CDT" finished-at="2020-07-28T16:53:33 CDT">
+    <groups>
+    </groups>
+    <test name="Test -1" duration-ms="4610" started-at="2020-07-28T16:53:26 CDT" finished-at="2020-07-28T16:53:31 CDT">
+      <class name="restApi.POSTPincode">
+        <test-method status="PASS" signature="postPincode()[pri:0, instance:restApi.POSTPincode@7f416310]" name="postPincode" duration-ms="4531" started-at="2020-07-28T16:53:26 CDT" finished-at="2020-07-28T16:53:31 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPincode -->
+      </class> <!-- restApi.POSTPincode -->
+    </test> <!-- Test -1 -->
+    <test name="Test-2" duration-ms="1567" started-at="2020-07-28T16:53:31 CDT" finished-at="2020-07-28T16:53:33 CDT">
+      <class name="restApi.GETMarketSummary">
+        <test-method status="PASS" signature="getMarketSummary()[pri:0, instance:restApi.GETMarketSummary@4e4aea35]" name="getMarketSummary" duration-ms="1564" started-at="2020-07-28T16:53:31 CDT" finished-at="2020-07-28T16:53:33 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMarketSummary -->
+      </class> <!-- restApi.GETMarketSummary -->
+    </test> <!-- Test-2 -->
+  </suite> <!-- First TestNG Test -->
+</testng-results>

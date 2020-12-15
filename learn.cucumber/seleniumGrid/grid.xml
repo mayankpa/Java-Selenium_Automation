@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="First TestNG Grid Test">
+    <test name="Test -Open Selenium Grid">
+        <classes>
+            <class name="OpenSeleniumGrid"></class>
+        </classes>
+    </test>
+
+</suite>

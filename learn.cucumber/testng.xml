@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="First TestNG Test">
+    <test name="Test -1">
+        <classes>
+            <class name="restApi.POSTPincode"></class>
+        </classes>
+    </test>
+    <test name="Test-2">
+        <classes>
+            <class name="restApi.GETMarketSummary"></class>
+        </classes>
+    </test>
+</suite>

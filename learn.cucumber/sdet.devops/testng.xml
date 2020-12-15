@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="Docker-SDET Example">
+
+    <test name = "TC1-Selenium Test">
+        <classes>
+            <class name="rediff.testcase.TC1_SeleniumTest" />
+        </classes>
+    </test>
+    <test name = "TC2-Create Portfolio">
+        <parameter name ="username" value="qa.1982" />
+        <parameter name ="password" value="Mrp1982$" />
+        <parameter name ="portfolioName" value="Testing SDET" />
+        <classes>
+            <class name="rediff.testcase.TC2_CreatePortfolio" />
+        </classes>
+    </test>
+    <test name = "TC3-AddStocks">
+        <parameter name ="username" value="qa.1982" />
+        <parameter name ="password" value="Mrp1982$" />
+        <parameter name ="stockname" value="SBI" />
+        <parameter name="stockdate" value="11/11/2001" />
+        <parameter name="stockQty" value="100" />
+        <parameter name="stockPrice" value="350"/>
+        <classes>
+            <class name="rediff.testcase.TC3_AddStocks" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="First TestNG Grid Test" parallel="tests">
+
+    <test name="Chrome - Execute Test on All Browser">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="ExecuteTestOnAllBrowser"></class>
+        </classes>
+    </test>
+
+    <test name="Firefox - Execute Test on All Browser">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="ExecuteTestOnAllBrowser"></class>
+        </classes>
+    </test>
+</suite>

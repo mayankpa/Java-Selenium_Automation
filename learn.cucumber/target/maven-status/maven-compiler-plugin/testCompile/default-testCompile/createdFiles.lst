@@ -1,0 +1,7 @@
+steps\LoginSteps.class
+steps\SampleTestNg.class
+restApi\BasicRestAPITest.class
+Interview\DemoTestNg.class
+restApi\POSTPincode.class
+Runner\TestRunner.class
+restApi\GETMarketSummary.class
