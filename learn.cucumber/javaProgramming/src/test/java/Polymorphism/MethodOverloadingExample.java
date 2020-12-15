@@ -9,6 +9,7 @@ public class MethodOverloadingExample extends School{
         School school = new School();
         school.testStudent(100,"Test");
         System.out.println("Test Git diff command");
+        System.out.println("Git diff Staged");
     }
 
 }
